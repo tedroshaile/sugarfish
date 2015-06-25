@@ -16,6 +16,9 @@
     "shelljs": "^0.3.0",
     "express": "~4.13.0"
   },
+  "engines": {
+    "node": "0.10.x"
+  },
   "devDependencies": {},
   "cordovaPlugins": [
     "com.google.cordova.admob",

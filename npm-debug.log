@@ -1,0 +1,77 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.3.25
+3 info using node@v0.11.13
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 warn package.json ionfullapp@1.0.0 No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ 'C:\\ted\\workout',
+7 verbose install   [ 'gulp',
+7 verbose install     'gulp-sass',
+7 verbose install     'gulp-concat',
+7 verbose install     'gulp-minify-css',
+7 verbose install     'gulp-rename',
+7 verbose install     'async',
+7 verbose install     'bower',
+7 verbose install     'gulp-angular-templatecache',
+7 verbose install     'gulp-util',
+7 verbose install     'jshint',
+7 verbose install     'shelljs',
+7 verbose install     'express' ] ]
+8 info preinstall ionfullapp@1.0.0
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping gulp@^3.5.6 C:\ted\workout
+11 verbose already installed skipping gulp-sass@^0.7.1 C:\ted\workout
+12 verbose already installed skipping gulp-concat@^2.2.0 C:\ted\workout
+13 verbose already installed skipping gulp-minify-css@^0.3.0 C:\ted\workout
+14 verbose already installed skipping gulp-rename@^1.2.0 C:\ted\workout
+15 verbose already installed skipping async@^0.9.0 C:\ted\workout
+16 verbose already installed skipping bower@^1.3.3 C:\ted\workout
+17 verbose already installed skipping gulp-angular-templatecache@^1.5.0 C:\ted\workout
+18 verbose already installed skipping gulp-util@^2.2.14 C:\ted\workout
+19 verbose already installed skipping jshint@^2.6.3 C:\ted\workout
+20 verbose already installed skipping shelljs@^0.3.0 C:\ted\workout
+21 verbose already installed skipping express@~4.13.0 C:\ted\workout
+22 silly resolved []
+23 info build C:\ted\workout
+24 verbose linkStuff [ false, false, false, 'C:\\ted' ]
+25 info linkStuff ionfullapp@1.0.0
+26 verbose linkBins ionfullapp@1.0.0
+27 verbose linkMans ionfullapp@1.0.0
+28 verbose rebuildBundles ionfullapp@1.0.0
+29 verbose rebuildBundles [ '.bin',
+29 verbose rebuildBundles   'async',
+29 verbose rebuildBundles   'bower',
+29 verbose rebuildBundles   'express',
+29 verbose rebuildBundles   'gulp',
+29 verbose rebuildBundles   'gulp-angular-templatecache',
+29 verbose rebuildBundles   'gulp-concat',
+29 verbose rebuildBundles   'gulp-minify-css',
+29 verbose rebuildBundles   'gulp-rename',
+29 verbose rebuildBundles   'gulp-sass',
+29 verbose rebuildBundles   'gulp-util',
+29 verbose rebuildBundles   'jshint',
+29 verbose rebuildBundles   'shelljs' ]
+30 info install ionfullapp@1.0.0
+31 info postinstall ionfullapp@1.0.0
+32 verbose unsafe-perm in lifecycle true
+33 info ionfullapp@1.0.0 Failed to exec postinstall script
+34 error ionfullapp@1.0.0 postinstall: `./node_modules/bower/bin/bower install`
+34 error Exit status 1
+35 error Failed at the ionfullapp@1.0.0 postinstall script.
+35 error This is most likely a problem with the ionfullapp package,
+35 error not with npm itself.
+35 error Tell the author that this fails on your system:
+35 error     ./node_modules/bower/bin/bower install
+35 error You can get their info via:
+35 error     npm owner ls ionfullapp
+35 error There is likely additional logging output above.
+36 error System Windows_NT 6.1.7601
+37 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+38 error cwd C:\ted\workout
+39 error node -v v0.11.13
+40 error npm -v 1.3.25
+41 error code ELIFECYCLE
+42 verbose exit [ 1, true ]

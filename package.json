@@ -35,7 +35,5 @@
     "org.pushandplay.cordova.apprate",
     "https://github.com/phonegap-build/PushPlugin.git",
     "nl.x-services.plugins.socialsharing"
-  ],"scripts": {
-  "postinstall": "./node_modules/bower/bin/bower install"
-}
+  ]
 }
